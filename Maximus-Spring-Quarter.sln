@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Dev Pod", "Game Dev Pod", "{65D9BEDD-6B38-6A7E-318C-0A24D530728C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Untitled", "Untitled", "{80E2A519-2662-8805-1052-1AE32DDF036A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Dev Pod", "Game Dev Pod", "{43FECD76-5279-6994-D30C-67BBE2498F0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sping game", "sping game", "{6BB2ACE9-BD08-EAC4-C381-A2EFDE62F17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Game Dev Pod\Untitled\Game Dev Pod\sping game\Assembly-CSharp-Editor.csproj", "{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Game Dev Pod\Untitled\Game Dev Pod\sping game\Assembly-CSharp.csproj", "{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80E2A519-2662-8805-1052-1AE32DDF036A} = {65D9BEDD-6B38-6A7E-318C-0A24D530728C}
+		{43FECD76-5279-6994-D30C-67BBE2498F0A} = {80E2A519-2662-8805-1052-1AE32DDF036A}
+		{6BB2ACE9-BD08-EAC4-C381-A2EFDE62F17F} = {43FECD76-5279-6994-D30C-67BBE2498F0A}
+		{581F1925-3EEB-656C-FBCF-4E3C5F8F01B1} = {6BB2ACE9-BD08-EAC4-C381-A2EFDE62F17F}
+		{D04FFFA8-8C5E-FA2F-6A5D-A5C1A4B38509} = {6BB2ACE9-BD08-EAC4-C381-A2EFDE62F17F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D141902-F38B-4001-9004-CD5890D01592}
+	EndGlobalSection
+EndGlobal
