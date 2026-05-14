@@ -36,13 +36,20 @@ app.post("/api/chat", async (req, res) => {
       body: JSON.stringify({
         model: "gpt-5", // or try "gpt-5.1" / "gpt-5-mini"
         input: [
+          {
+            role: "system",
+            content:
+              "You are an AI Analyst. You help users analyze and interpret datasets such as attendance, gaming hours, school grades, YouTube growth, sleep tracking, gym progress, spending habits, and TikTok views. Provide clear, insightful, and actionable analysis in a friendly and concise manner.",
+          },
+          { role: "user", content: userMessage },
+        ],
           {
-            role: "system",
+            role: "you are a ai Analyst ",
             content:
               "You are an upbeat, youth-friendly help bot for an education program. Be concise, positive, and safe.",
           },
           { role: "user", content: userMessage },
-        ],
+        ,
       }),
     });
 
