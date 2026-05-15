@@ -10,39 +10,44 @@ import SwiftUI
 struct Session_2: View {
     var body: some View {
         VStack {
-            
-            Text ("hi i am Maximus")
-                .font(.headline)
-                .foregroundColor(.blue)
-                .padding()
-            Image("brick-wall")
-                .resizable()
-                .frame(width: 200, height: 200)
-                
-        }
-        HStack {
-            
-            Text ("hi i am Maximus")
-                .font(.headline)
-                .foregroundColor(.blue)
-                .padding()
-            Image("brick-wall")
-                .resizable()
-                .frame(width: 200, height: 200)
-        }
-        ZStack {
-            
-            Text ("hi i am Maximus")
-                .font(.headline)
-                .foregroundColor(.blue)
-                .padding()
-            Image("brick-wall")
-                .resizable()
-                .frame(width: 200, height: 200)
+            ScrollView (){
+                VStack {
+                    
+                    Text ("hi i am Maximus")
+                        .font(.headline)
+                        .foregroundColor(.blue)
+                        .padding()
+                    Image("brick-wall")
+                        .resizable()
+                        .frame(width: 200, height: 200)
+                    
+                }
+                HStack {
+                    
+                    Text ("hi i am Maximus")
+                        .font(.headline)
+                        .foregroundColor(.blue)
+                        .padding()
+                    Image("brick-wall")
+                        .resizable()
+                        .frame(width: 200, height: 200)
+                }
+                ZStack {
+                    
+                    Text ("hi i am Maximus")
+                        .font(.headline)
+                        .foregroundColor(.blue)
+                        .padding()
+                    Image("brick-wall")
+                        .resizable()
+                        .frame(width: 200, height: 200)
+                }
+            }
+            }
         }
     }
-}
+    
+    #Preview {
+        Session_2()
+    }
 
-#Preview {
-    Session_2()
-}
